@@ -12,3 +12,6 @@ function outputResult(result, text) {
   currentCalculationOutput.textContent = text;
 }
 
+let currentResult = 0;
+currentResult += 10;
+outputResult(currentResult, "0");
